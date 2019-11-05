@@ -20,6 +20,30 @@ header h1 {
   color: white;
 }
 
-main {
-  column-count: 2;
+section h1 {
+  text-align: center;
+  font-family: arial;
+  flex-grow: 1;
+
+}
+
+section div {
+  margin: 0 40px 0 40px;
+  align-items: center;
+
+}
+
+.left {
+  width: 75%;
+  float: left;
+}
+section.column.right {
+  width: 25%;
+  float: right;
+  align-items: center;
+  justify-content: center
+
+}
+section.column.right h1 {
+  font-size: 14pt;
 }
