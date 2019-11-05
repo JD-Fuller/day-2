@@ -71,8 +71,32 @@ section.right {
 }
 
 
-@media and screen (max-width: 700px) {
-  .left h1 {
-    font-size: 14px;
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14pt;
+    background-color: rgb(104, 128, 153);
+    display: block;
+  }
+header h1 {
+  font-size: 14pt;
+}
+  h1 {
+    font-size: 18pt;
+    font-family: monospace;
+  }
+  section.left {
+    background-color: rgb(132, 135, 139)
+  }
+  section.right {
+    background-color: rgb(230, 233, 235)
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  body {
+    display: block;
   }
 }
