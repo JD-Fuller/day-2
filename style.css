@@ -1,8 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  font-size: 16pt;
+  min-height: 80vh;
+  font-size: 14pt;
 }
 
 header, footer {
@@ -21,14 +21,13 @@ header h1 {
 }
 
 section h1 {
-  text-align: center;
+  justify-content: center;
   font-family: arial;
   flex-grow: 1;
-
 }
 
 section div {
-  margin: 0 40px 0 40px;
+  margin: 0 75px 0 75px;
   align-items: center;
 
 }
@@ -37,13 +36,32 @@ section div {
   width: 75%;
   float: left;
 }
-section.column.right {
+section.right {
   width: 25%;
   float: right;
-  align-items: center;
-  justify-content: center
+  
+  margin: 0;
 
 }
-section.column.right h1 {
+
+.left h1 {
+  text-align: center;
+  justify-content: center;
+  margin: 0 0 1em 0;
+  border-top-style: solid;
+  border-top-color: blue;
+  border-top-width: 10px;
+  width: 80%;
+}
+
+.right h1 {
   font-size: 14pt;
+  margin: 0;
+  text-justify: left;
+ 
+}
+
+.right p {
+  margin: 0 20px 0 10px;
+  text-justify: left;
 }
