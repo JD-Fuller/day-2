@@ -7,14 +7,19 @@ body {
 
 header, footer {
   min-height: 10vh;
+  background-color: #23374d;
+  margin: 10px 0 10px 0;
 }
 
 header {
-  background-color: #23374d;
   text-align: center;
   font-family: montserrat;
 }
 
 header h1 {
   color: white;
+}
+
+main {
+  column-count: 2;
 }
