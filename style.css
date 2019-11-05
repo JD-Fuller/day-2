@@ -20,17 +20,16 @@ header h1 {
   color: white;
 }
 
-section h1 {
-  justify-content: center;
-  font-family: arial;
-  flex-grow: 1;
-}
-
 section div {
   margin: 0 75px 0 75px;
   align-items: center;
-
 }
+
+/* section h1 {
+  justify-content: center;
+  font-family: arial;
+  flex-grow: 1;
+} */
 
 .left {
   width: 75%;
@@ -39,19 +38,18 @@ section div {
 section.right {
   width: 25%;
   float: right;
-  
   margin: 0;
-
 }
 
 .left h1 {
   text-align: center;
   justify-content: center;
-  margin: 0 0 1em 0;
+  margin: 0 75px 0 75px;
   border-top-style: solid;
-  border-top-color: blue;
+  border-top-color: #23374d;
   border-top-width: 10px;
-  width: 80%;
+  font-family: montserrat;
+  font-size: 18pt;
 }
 
 .right h1 {
@@ -64,4 +62,11 @@ section.right {
 .right p {
   margin: 0 20px 0 10px;
   text-justify: left;
+}
+
+
+@media and screen (max-width: 700px) {
+  .left h1 {
+    font-size: 14px;
+  }
 }
