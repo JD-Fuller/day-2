@@ -11,6 +11,8 @@ header, footer {
 
 header {
   background-color: #23374d;
+  text-align: center;
+  font-family: montserrat;
 }
 
 header h1 {
