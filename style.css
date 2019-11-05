@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-  min-height: 10vh;
+  min-height: 15vh;
   background-color: #23374d;
   margin: 0px 0 31px 0;
   border: 2px solid black;
@@ -14,17 +14,17 @@ header, footer {
 
 header {
   text-align: center;
-  font-family: montserrat;
 }
 
 header h1 {
   color: white;
   margin: 20px 0 0 0;
-  font-size: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 60px;
 }
 
 section div {
-  margin: 0 81px 0 81px;
+  margin: 0 85px 0 95px;
   align-items: center;
 }
 
@@ -37,6 +37,7 @@ section div {
 .left {
   width: 75%;
   float: left;
+  margin: 0 0 0 30px;
 }
 section.right {
   width: 21%;
@@ -50,7 +51,7 @@ section.right {
   border-top-style: solid;
   border-top-color: #23374d;
   border-top-width: 14px;
-  font-family: helvetica, serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, helvetica, serif;
   font-size: 30pt;
   padding: 7px 0 0 0;
 }
