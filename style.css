@@ -4,3 +4,11 @@ body {
   min-height: 100vh;
   font-size: 16pt;
 }
+
+header, footer {
+  min-height: 10vh;
+}
+
+header {
+  background-color: #23374d;
+}
